@@ -1,0 +1,25 @@
+---
+title: "Using the pets package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using the pets package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Pets)
+
+## if you love cats
+cats(TRUE)
+
+## if you're not a big fan of cats
+cats(FALSE)
+```
