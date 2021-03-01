@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Pets
+# Pets <img src="man/figures/logo.png" align="right" alt="" width="120" />
 
 The goal of Pets is to provide a simple means for people to express
 their feelings about pets. At present, the package only contains one
